@@ -32,10 +32,6 @@ Thank you for considering contributing to this project! We welcome all kinds of 
 - Write tests for the code where applicable.
 - Make sure the tests pass.
 
-### 5. Code of Conduct
-
-By participating in this project, you agree to abide by the [Code of Conduct](./CODE_OF_CONDUCT.md).
-
 ## Need Help?
 
 If you have questions or need assistance, feel free to open an issue or reach out.
