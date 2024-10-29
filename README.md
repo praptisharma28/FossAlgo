@@ -50,7 +50,3 @@ Please include virtual enviornment in gitignore file, do not commit it.
    ```
 
 7. Access the project in your browser at `http://127.0.0.1:8000`.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
