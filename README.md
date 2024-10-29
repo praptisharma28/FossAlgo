@@ -1,52 +1,116 @@
+
 # FossAlgo
-A website to keep track of CP contests of Foss community members.
 
-This project is built with:
+**FossAlgo** is a website designed to help Foss community members keep track of competitive programming (CP) contests, user profiles, and standings within the community.
 
-- **Python**: version 3.x
-- **Django**: version 3.x or 4.x
-- **Database**: MySQL
+## Table of Contents
 
-## Setup
+- [About the Project](#about-the-project)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## About the Project
+
+FossAlgo offers features like:
+- Tracking ongoing and upcoming CP contests
+- Maintaining user profiles
+- Viewing community standings and rankings
+- Dashboard analytics for users and administrators
+
+## Built With
+
+<img src="django (1).png" width="100" height="100" style="vertical-align: middle; margin-right: 10px;">
+<img src="python (1).png" width="50" height="50" style="vertical-align: middle;margin-right: 10px;">
+<img src="mysql (1).png" width="70" height="70" style="vertical-align: middle;">
+
+- **Python** 3.x
+- **Django** 3.x/4.x
+- **MySQL** for database management
+
+## Getting Started
+
+To set up FossAlgo on your local machine for development or testing, follow the instructions below.
 
 ### Prerequisites
 
-Make sure you have the following installed on your machine:
-
+Ensure the following software is installed:
 - Python 3.x
 - Django
-- [Any other tools like `pip`, `virtualenv`]
+- MySQL
+- Other tools: `pip`, `virtualenv`
 
 ### Installation
 
-Follow these steps to set up the project on your local machine:
-
-1. **Clone the repository**:
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/praptisharma28/FossAlgo.git
    cd FossAlgo
    ```
 
-2. **Create and activate a virtual environment**:
+2. **Create and Activate a Virtual Environment**
    ```bash
    python3 -m venv venv
-   source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
    ```
-Please include virtual enviornment in gitignore file, do not commit it.
 
-4. **Run migrations**:
+
+3. **Run Migrations**
    ```bash
    python manage.py migrate
    ```
 
-5. **Create a superuser**:
+4. **Create a Superuser**
    ```bash
    python manage.py createsuperuser
    ```
 
-5. **Run the development server**:
+### Running the Application
+
+1. **Start the Development Server**
    ```bash
    python manage.py runserver
    ```
 
-7. Access the project in your browser at `http://127.0.0.1:8000`.
+
+2. **Access the Application**
+
+   Open your browser and go to `http://127.0.0.1:8000` to view the application.
+
+## Usage
+
+After setting up and running the application:
+- **Log in** as the superuser to access administrative features.
+- **Add/Manage CP contests**, user profiles, and monitor standings.
+- **User Dashboard** for members to track their performance and view contest history.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a branch for your feature (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+> **Note**: Ensure the `venv` directory is included in the `.gitignore` file and not committed.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+## Contact
+
+For further information, questions, or contributions:
+- Project Repository: [FossAlgo on GitHub](https://github.com/praptisharma28/FossAlgo)
+
+- **Github** : https://github.com/praptisharma28/
+
+
+7. Access the project in your browser at `http://127.0.0.1:8000`
