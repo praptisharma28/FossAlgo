@@ -78,6 +78,7 @@ Ensure the following software is installed:
    python manage.py runserver
    ```
 
+
 2. **Access the Application**
 
    Open your browser and go to `http://127.0.0.1:8000` to view the application.
@@ -112,5 +113,4 @@ For further information, questions, or contributions:
 - **Github** : https://github.com/praptisharma28/
 
 
-  
----
+7. Access the project in your browser at `http://127.0.0.1:8000`
