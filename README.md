@@ -24,16 +24,6 @@ FossAlgo offers features like:
 - Viewing community standings and rankings
 - Dashboard analytics for users and administrators
 
-## Built With
-
-<img src="django (1).png" width="100" height="100" style="vertical-align: middle; margin-right: 10px;">
-<img src="python (1).png" width="50" height="50" style="vertical-align: middle;margin-right: 10px;">
-<img src="mysql (1).png" width="70" height="70" style="vertical-align: middle;">
-
-- **Python** 3.x
-- **Django** 3.x/4.x
-- **MySQL** for database management
-
 ## Getting Started
 
 To set up FossAlgo on your local machine for development or testing, follow the instructions below.
